@@ -64,9 +64,14 @@ padding: 10px;
     .banner {
 display: none;
     }
-    
+
+    .card {
+        transition: none;
+    }
+
  .card:hover {
         transform: none;
+        transition: none;
     }
 
     .footer-p {
