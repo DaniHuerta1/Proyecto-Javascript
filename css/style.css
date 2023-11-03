@@ -8,6 +8,7 @@ header {
 .banner {
     background-color: black;
     overflow-x: hidden;
+    margin-top: 85px;
 }
 
 .banner img {
@@ -49,8 +50,32 @@ font-size: 28px;
     row-gap: 30px;
 }
 
+.footer-p {
+text-align: center;
+font-size: 14px;
+margin: 12px;
+padding: 10px;
+}
+
+.iconos-footer {
+    text-align: center;
+    margin: 12px;
+}
 @media screen and (max-width:750px) {
     .banner {
 display: none;
+    }
+
+    .row {
+        row-gap: 0px;
+    }
+
+    .footer-p {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .iconos-footer {
+        margin: 5px;
     }
 }
